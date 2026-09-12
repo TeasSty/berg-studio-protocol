@@ -58,7 +58,7 @@ export async function initScrollOrb(options = {}) {
   scene.add(fill);
   scene.add(new THREE.AmbientLight(0xffe8dc, 0.35));
 
-  const order = options.order || ["hero", "zhanna", "uslugi", "ceny", "zapis"];
+  const order = options.order || ["hero", "zhanna", "rezultaty", "uslugi", "ceny", "zapis"];
   const state = {
     x: window.innerWidth * 0.72,
     y: window.innerHeight * 0.42,
@@ -86,8 +86,13 @@ export async function initScrollOrb(options = {}) {
           top,
           x: rect.left + rect.width / 2,
           y: rect.top + window.scrollY + rect.height / 2,
-          scale: Number(el.dataset.orbScale || (id === "hero" ? 1 : id === "zapis" ? 0.55 : 0.78)),
-          opacity: Number(el.dataset.orbOpacity || (id === "zapis" ? 0 : 1)),
+          scale: Number(
+            el.dataset.orbScale ||
+              (id === "hero" ? 1 : id === "zapis" ? 0.55 : id === "rezultaty" ? 0.55 : 0.78),
+          ),
+          opacity: Number(
+            el.dataset.orbOpacity || (id === "zapis" ? 0 : id === "rezultaty" ? 0.35 : 1),
+          ),
         };
       })
       .filter(Boolean)

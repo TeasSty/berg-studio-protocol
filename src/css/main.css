@@ -266,13 +266,26 @@ h1 {
 .band,
 .services,
 .prices,
-.book {
+.book,
+.results {
   position: relative;
 }
 
 .orb-anchor--zhanna {
   top: 42%;
   right: 8%;
+}
+
+.results__head,
+.results__head h2,
+.compare {
+  position: relative;
+  z-index: 13;
+}
+
+.orb-anchor--results {
+  top: 72%;
+  right: 0.25rem;
 }
 
 .orb-anchor--services {
