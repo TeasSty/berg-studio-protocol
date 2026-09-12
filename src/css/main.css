@@ -237,6 +237,68 @@ h1 {
   justify-self: end;
 }
 
+.orb-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 240px;
+  height: 240px;
+  pointer-events: none;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 28px 40px rgba(226, 90, 44, 0.28));
+}
+
+.orb-anchor {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.hero__orb .orb-anchor {
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.band,
+.services,
+.prices,
+.book {
+  position: relative;
+}
+
+.orb-anchor--zhanna {
+  top: 42%;
+  right: 8%;
+}
+
+.orb-anchor--services {
+  top: 18%;
+  left: 6%;
+}
+
+.orb-anchor--prices {
+  top: 28%;
+  right: 10%;
+}
+
+.orb-anchor--book {
+  top: 35%;
+  left: 55%;
+}
+
+html.has-webgl-orb .hero__orb-core--fallback {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+html.has-webgl-orb .hero__orb-ring {
+  opacity: 0.45;
+}
+
 .hero__orb-core {
   width: min(240px, 52vw);
   aspect-ratio: 1;
@@ -869,5 +931,9 @@ address {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+
+  .orb-canvas {
+    display: none;
   }
 }

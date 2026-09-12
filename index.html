@@ -119,7 +119,8 @@
             </div>
           </div>
           <div class="hero__orb" aria-hidden="true">
-            <span class="hero__orb-core"></span>
+            <div class="orb-anchor" data-orb-anchor="hero"></div>
+            <span class="hero__orb-core hero__orb-core--fallback"></span>
             <span class="hero__orb-ring"></span>
             <p>Светлый кабинет · Заозёрный</p>
           </div>
@@ -141,6 +142,7 @@
       </section>
 
       <section class="band band--ink" id="zhanna">
+        <div class="orb-anchor orb-anchor--zhanna" data-orb-anchor="zhanna" aria-hidden="true"></div>
         <div class="band__grid">
           <div>
             <p class="eyebrow eyebrow--soft">Кто принимает</p>
@@ -217,6 +219,7 @@
       </section>
 
       <section class="services" id="uslugi">
+        <div class="orb-anchor orb-anchor--services" data-orb-anchor="uslugi" aria-hidden="true"></div>
         <div class="services__intro">
           <p class="eyebrow">Запросы</p>
           <h2>С чем обычно приходят</h2>
@@ -281,6 +284,7 @@
       </section>
 
       <section class="prices" id="ceny">
+        <div class="orb-anchor orb-anchor--prices" data-orb-anchor="ceny" aria-hidden="true"></div>
         <div class="prices__intro">
           <p class="eyebrow">Цены</p>
           <h2>Только то, что уже в открытом доступе</h2>
@@ -462,6 +466,7 @@
       </section>
 
       <section class="book" id="zapis">
+        <div class="orb-anchor orb-anchor--book" data-orb-anchor="zapis" aria-hidden="true"></div>
         <div class="book__inner">
           <p class="eyebrow eyebrow--soft">Запись</p>
           <h2>Напишите, как удобно</h2>
@@ -520,6 +525,7 @@
       </div>
     </footer>
 
+    <canvas id="orb-canvas" class="orb-canvas" aria-hidden="true"></canvas>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

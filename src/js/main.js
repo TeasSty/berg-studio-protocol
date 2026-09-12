@@ -92,4 +92,18 @@ if (!reduceMotion) {
     { threshold: 0.15, rootMargin: "0px 0px -8% 0px" },
   );
   targets.forEach((node) => observer.observe(node));
+
+  const startOrb = () => {
+    import("./orb.js")
+      .then(({ initScrollOrb }) => initScrollOrb())
+      .catch(() => {
+        /* keep CSS fallback */
+      });
+  };
+
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(startOrb, { timeout: 400 });
+  } else {
+    setTimeout(startOrb, 80);
+  }
 }
