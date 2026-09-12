@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TeasSty.github.io/berg-studio-kurgan/sitemap.xml
+Sitemap: https://TeasSty.github.io/berg-studio-protocol/sitemap.xml

@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'node:path';
 
 export default defineConfig({
-  base: '/berg-studio-kurgan/',
+  base: '/berg-studio-protocol/',
   build: {
     outDir: 'dist',
     assetsInlineLimit: 4096,

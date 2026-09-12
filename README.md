@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-На GitHub Pages достаточно корня репозитория: `index.html` открывается без сборки.
+Страница: https://teassty.github.io/berg-studio-protocol/
