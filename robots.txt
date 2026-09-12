@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://TeasSty.github.io/berg-studio-protocol/sitemap.xml

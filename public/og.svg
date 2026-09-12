@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#c9d3da"/>
-  <rect x="70" y="50" width="1060" height="530" fill="#f6f7f4" stroke="#15191d" stroke-width="2"/>
-  <circle cx="70" cy="180" r="14" fill="#c9d3da" stroke="#15191d"/>
-  <circle cx="70" cy="315" r="14" fill="#c9d3da" stroke="#15191d"/>
-  <circle cx="70" cy="450" r="14" fill="#c9d3da" stroke="#15191d"/>
-  <text x="130" y="160" font-family="Georgia, serif" font-size="28" fill="#243f38">BERG STUDIO · # </text>
-  <text x="130" y="310" font-family="Georgia, serif" font-size="72" fill="#15191d">!=0G0;0 @0715@Q<AO.</text>
-  <text x="130" y="390" font-family="Georgia, serif" font-size="56" fill="#b4451c">>B><  ?@>F54C@0.</text>
-  <text x="130" y="500" font-family="Arial, sans-serif" font-size="24" fill="#4d585f">0==0 (B5@=15@3, :>A<5B>;>3</text>
+  <rect width="1200" height="630" fill="#F7F3EE"/>
+  <circle cx="980" cy="160" r="220" fill="#F0D9CF"/>
+  <circle cx="1040" cy="120" r="120" fill="#E25A2C" opacity="0.9"/>
+  <text x="80" y="200" font-family="Arial Black, sans-serif" font-size="42" fill="#E25A2C">BERG STUDIO</text>
+  <text x="80" y="340" font-family="Georgia, serif" font-size="96" fill="#1A1714">@>AB> A8O9.</text>
+  <text x="80" y="430" font-family="Arial, sans-serif" font-size="28" fill="#6E675F">0==0 (B5@=15@3 · C@30=</text>
 </svg>

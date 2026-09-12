@@ -1,18 +1,10 @@
-# BERG Studio Курган
+# BERG Studio — «Сияй»
 
-Сайт кабинета Жанны Штернберг. Одна страница, живые ссылки на WhatsApp / Telegram / VK.
-
-Локально:
+Сайт кабинета Жанны Штернберг, Курган.
 
 ```bash
 npm install
 npm run dev
-```
-
-Сборка:
-
-```bash
-npm run build
 ```
 
 Страница: https://teassty.github.io/berg-studio-protocol/
